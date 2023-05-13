@@ -24,16 +24,16 @@ https://shareg.pt/6A45AWU
 
 ## 3. 수행방법
 <!-- Write Overview about this project -->
-- 본 과제의 특징은 테스트 데이터 셋은 예술작품(이미지)의 일부분(약1/4)만을 제공하기 때문에 train과 test 사이의 domain gap 발생
-- 이를 해결 하기 위해서 train시에 이미지를 가로,세로를 1/2 비율로 Random Crop하도록 augmentation 진행
-- 추가적으로 Overfitting을 방지하고 데이터 diversity를 늘리기 위해서, CutMix, CutOut과 같은 data augmentation 기법 적용
-- 모델로는 CNN과 Transformer를 결합한 ConvNext_Large 모델 사용
-- 최종적으로 F1-score 0.85487 달성
+- 본 과제는 ChatGPT가 제공하는 코드로만 AI 코드를 작성하여 생성된 모델의 추론 결과를 제출
+- ChatGPT가 코드를 잘짜도록 질문을 잘하는 것이 중요. (간결하고, 핵심적인 내용을 잘 전달하는 것이 중요)
+- pytorch를 사용하고, Pretrained-Roberta-Large 모델을 사용하도록 지시
+- 데이터 불균형 문제가 있으므로 Focal-Loss를 사용하도록 지시
+- 최종적으로 F1-score 0.63423 달성
 
 ## 4. 한계점
 <!-- Write Overview about this project -->
-- train 데이터에 존재하는 화가의 작품 개수가 불균형 해서 data imbalance의 문제가 있었음. 이 부분을 해소하기위한 방법이 부족했음
-- 모든 화가의 작품을 균등하게 학습할 수 있도록 Weighted Random Sampling 진행하면 더 좋은 성능을 얻을 것으로 보임
+- ChatGPT로만 코드를 짜야하기에 하이퍼파라미터 조정이 어렸웠음
+- back translation과 같은 augmentation 기법을 쓰도록 지시했지만, 어려운 지시는 코드로 잘 짜지 못함
 
 ## Team member
 장종환 (개인 참가)

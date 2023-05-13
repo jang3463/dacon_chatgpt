@@ -15,6 +15,8 @@ https://dacon.io/competitions/official/236006/overview/description
   - id : 샘플 고유 id
   - text : 뉴스 기사 전문
   - label : 카테고리
+
+
 - test.csv : 테스터 데이터셋은 뉴스 기사 Text만 제 (83344개)
   - id : 샘플 고유 id
   - text : 뉴스 기사 전문

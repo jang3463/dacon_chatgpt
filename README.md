@@ -1,6 +1,6 @@
 # DACON-ChatGPT-AI-Competition
 ## 1. 개요
-https://dacon.io/competitions/official/236006/overview/description
+https://dacon.io/competitions/official/236006/overview/description  
 https://shareg.pt/6A45AWU
   - 주제 : ChatGPT를 활용하여 고품질의 AI 코드를 개발
   - Task : Text Classification, Prompt Engineering

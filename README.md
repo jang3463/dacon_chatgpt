@@ -18,7 +18,7 @@ https://shareg.pt/6A45AWU
   - label : 카테고리
 
 
-- test.csv : 테스터 데이터셋은 뉴스 기사 Text만 제 (83344개)
+- test.csv : 테스터 데이터셋은 뉴스 기사 Text만 제공 (83344개)
   - id : 샘플 고유 id
   - text : 뉴스 기사 전문
 
